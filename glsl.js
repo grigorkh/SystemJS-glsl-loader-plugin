@@ -9,6 +9,5 @@ exports.translate = function(load) {
 	}
   
 	load.metadata.format = 'amd';
-	// console.log(load.source);
 	return 'def' + 'ine(function() {\nreturn ' + JSON.stringify(load.source) + ';\n});';
 }
