@@ -2,10 +2,11 @@
 glsl files loader plugin for SystemJS
 
 ###Usage
+---
 
 SystemJS config:
 
-```
+```js
 SystemJS.config({
 	map: {
 		glsl: 'src/glsl.js'  // path to glsl.js file
@@ -22,3 +23,7 @@ SystemJS.config({
 	}
 });
 ```
+
+License
+---
+My codes, open sourced. Have fun and learn. Licensed under [WTFPL](http://www.wtfpl.net/)
